@@ -9,7 +9,7 @@ ETT - Normal, ETT - Borderline, ETT - Abnormal, NGT - Abnormal
 NGT - Borderline, NGT - Incompletely Image, NGT - Normal
 CVC - Abnormal, CVC - Borderlin, CVC - Normal, Swan Ganz Catheter Present
 
-
+![TUBE](https://github.com/salil-7295/Kaggle-RANZCR-Clip-Challenge/blob/main/Catheter%20Tube%20_Classes.jpg)
 
 ### Interfaces
 the app is intergrated with streamlit, a Python tool for machine learning desmonstration
