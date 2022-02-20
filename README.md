@@ -14,13 +14,19 @@ CVC - Abnormal, CVC - Borderlin, CVC - Normal, Swan Ganz Catheter Present
 ### Interfaces
 the app is intergrated with streamlit, a Python tool for machine learning desmonstration
 the front page looks like this:
-------------------------------------
+
+![UI-FRONT](https://github.com/salil-7295/Kaggle-RANZCR-Clip-Challenge/blob/main/UI_Front.png) 
+
 The funtionalities are simple and clear: upload an X-ray image from local system by clicking "Broswer files".
 Read the basic information from "ABOUT".
 Make the predictions and see the result from "PREDICT"
-----------------------------------------
+
 When you click the "PREIDICT", it will run the predictions on 4 different models on the backend, for each model, it will return the probability of being True for all the 11 labels. 
 The final prediction will be based on the average performance of 4 models
+
+![X_Ray_Result](https://github.com/salil-7295/Kaggle-RANZCR-Clip-Challenge/blob/main/Sample_X-ray%20Image.png)
+
+![Result](https://github.com/salil-7295/Kaggle-RANZCR-Clip-Challenge/blob/main/Results.png)
 
 Notice the probabilities of 11 labels don't add up to 1. Because each label is predicted independently as 0 or 1.
 
