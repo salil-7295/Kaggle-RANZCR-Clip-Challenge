@@ -25,7 +25,7 @@ _Upload an X-ray image from local system by clicking "Broswer files".
 
 _Read the basic information from "ABOUT".
 
-_Make the predictions using "PREDICT" and we can see the classification results (Confidence Scores for each class).When you click the "PREIDICT", it will run the predictions on 4 different models on the backend, for each model, it will return the probability of being True for all the 11 labels. The final prediction will be based on the average performance of 4 models
+_Make the predictions using "PREDICT" and we can see the classification results (Confidence Scores for each class).When you click the "PREIDICT", it will run the predictions on 3 different models on the backend, for each model, it will return the probability of being True for all the 11 labels. The labe with highest probability will be displayed on the top. 
 
 ![Result](https://github.com/salil-7295/Kaggle-RANZCR-Clip-Challenge/blob/main/Predictions.png)
 
